@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🌸 Lakshura Studio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- SPLASH SCREEN -->
+  <div id="splash">
+    <img src="images/logo.png" alt="Lakshura Studio Logo">
+  </div>
+
+  <!-- HEADER -->
+  <header>
+  <div class="logo">
+    <img src="images/logo.png" alt="Lakshura Studio">
+    <span>Lakshura Studio</span>
+  </div>
+  
+  <nav>
+  <a href="01_index.html">Home</a>
+
+  <!-- SERVICES DROPDOWN -->
+  <div class="nav-dropdown">
+    <span class="nav-link active">Services ▾</span>
+
+    <div class="dropdown-menu">
+      <a href="02A_Makeup.html">Makeup</a>
+      <a href="02B_Saree.html">Saree Draping</a>
+      <a href="02D_Mehendi.html">Mehendi</a>
+      <a href="02C_Aari.html">Aari Work</a>
+    </div>
+  </div>
+
+  <a href="03_Classes.html">Classes</a>
+  <a href="04_About.html">About</a>
+  <a href="04_Booking.html">Booking</a>
+  <a href="05_Gallery.html">Gallery</a>
+  <a href="06_Testimonials.html">Testimonials</a>
+  <a href="06_Contact.html">Contact</a>
+  <a href="07_FAQ.html">FAQ</a>
+</nav>
+
+</header>
+
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+  <h1>Welcome to Lakshura Studio</h1>
+  <p>Bridal Makeup • Mehendi • Aari Work • Saree Draping</p>
+  <a href="#booking" class="btn">Book Now</a>
+</section>
+
+  <!-- SERVICES SECTION -->
+<section class="services">
+  <h2>Our Services</h2>
+
+  <div class="service-box">
+
+    <div class="service-card">
+      <img src="images/bridal.png">
+      <h3>Bridal Makeup</h3>
+    </div>
+
+    <div class="service-card">
+      <img src="images/mehendi.png">
+      <h3>Mehendi</h3>
+    </div>
+
+    <div class="service-card">
+      <img src="images/aari.png">
+      <h3>Aari Work</h3>
+    </div>
+
+    <div class="service-card">
+      <img src="images/saree.png">
+      <h3>Saree Draping</h3>
+    </div>
+
+  </div>
+</section>
+
+<!-- FEATURED WORKS -->
+<section class="featured">
+  <h2>Featured Works</h2>
+
+  <div class="featured-box">
+
+    <img src="images/featured1.png">
+    <img src="images/featured2.png">
+    <img src="images/featured3.png">
+
+  </div>
+
+  <a href="05_Gallery.html" class="view-btn">View Full Gallery</a>
+</section>
+
+<!-- BOOKING SECTION -->
+<section class="booking" id="booking">
+  <h2>Book Your Appointment</h2>
+
+  <form class="booking-form" id="bookingForm">
+    <p id="bookingMsg" style="display:none; color:green; margin-top:15px; font-weight:bold;">
+  ✅ Your booking request has been received. We will contact you shortly.
+</p>
+    <input type="text" placeholder="Your Name" required>
+    <input type="tel" placeholder="Phone Number" required>
+
+    <select required>
+      <option value="">Select Service</option>
+      <option>Bridal Makeup</option>
+      <option>Mehendi</option>
+      <option>Aari Work</option>
+      <option>Saree Draping</option>
+    </select>
+
+    <button type="submit" onclick="sendToWhatsApp()">Book Now</button>
+  </form>
+
+  <p class="or">OR</p>
+
+  <a class="whatsapp-btn" 
+     href="https://wa.me/919791525688" 
+     target="_blank">
+     📱 Book via WhatsApp
+  </a>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+  <div class="footer-content">
+
+    <div class="footer-box">
+      <h3>🌸 Lakshura Studio</h3>
+      <p>
+        Bridal Makeup • Mehendi • Aari Work <br>
+        Custom Saree Draping
+      </p>
+    </div>
+
+    <div class="footer-box">
+      <h4>Contact Us</h4>
+      <p>📍 Chennai, Tamil Nadu</p>
+      <p>📞 +91 98765 43210</p>
+      <p>✉️ lakshurastudio@gmail.com</p>
+    </div>
+
+    <div class="footer-box">
+      <h4>Follow Us</h4>
+
+      <div class="social-links">
+        <a href="#" title="Instagram">📷 Instagram</a>
+        <a href="https://wa.me/919791525688" target="_blank">💬 WhatsApp</a>
+        <a href="#" title="Facebook">📘 Facebook</a>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Lakshura Studio. All Rights Reserved.
+  </div>
+
+</footer>
+
+</body>
+</html>
